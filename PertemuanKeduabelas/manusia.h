@@ -8,5 +8,8 @@ using namespace std;
 class Manusia {
 public: 
 	string nama;
+	Jantung varJantung;
+
+
 };
 #endif
