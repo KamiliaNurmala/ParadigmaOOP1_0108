@@ -10,6 +10,8 @@ public:
 	string nama;
 	Jantung varJantung;
 
-
+	Manusia(string pName) : nama(pName) {
+		cout << nama << " hidup\n";
+	}
 };
 #endif
