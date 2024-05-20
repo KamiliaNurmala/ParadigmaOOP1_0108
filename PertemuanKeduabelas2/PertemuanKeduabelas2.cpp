@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Mahasiswa {
+private:
+	const int id;
+	string nama;
+	float nilai;
+
+
+public:
+	Mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai) {
+		//Definisi
+	}
+
+	~Mahasiswa() {
+		cout << "Id    = " << id << endl;
+		cout << "Nama  = " << nama << endl;
+		cout << "Nilai = " << nilai << endl;
+	}
+};
+
+int main() {
+	Mahasiswa mhs(12, "Lia", 89.0);	return 0;
+}
