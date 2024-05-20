@@ -8,4 +8,9 @@ private:
 	string nama;
 	float nilai;
 
+
+public:
+	Mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama) {
+		//Definisi
+	}
 };
