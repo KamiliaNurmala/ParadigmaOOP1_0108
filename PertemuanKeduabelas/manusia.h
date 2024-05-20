@@ -3,5 +3,5 @@
 #define MANUSIA_H
 
 #include <iostream>
-
+using namespace std;
 #endif
