@@ -10,5 +10,8 @@ public:
 	Jantung() {
 		cout << "Jantung dihidupkan\n";
 	}
+	~Jantung() {
+		cout << "Jantung dimatikan\n";
+	}
 };
 #endif
