@@ -10,7 +10,7 @@ private:
 
 
 public:
-	Mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama) {
+	Mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai) {
 		//Definisi
 	}
 
