@@ -4,4 +4,9 @@
 
 #include <iostream>
 using namespace std;
+
+class Manusia {
+public: 
+	string nama;
+};
 #endif
