@@ -20,3 +20,8 @@ public:
 		cout << "Nilai = " << nilai << endl;
 	}
 };
+
+int main() {
+	Mahasiswa mhs(12, "Lia", 89.0);
+	return 0;
+}
